@@ -1,0 +1,152 @@
+  
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+\usepackage{url}
+\usepackage{hyperref}
+
+% adjust the page margins
+\usepackage[scale=0.90]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{}{Ranit Pradhan}
+\address{Kollam, Kerala, India}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+91 9382615195}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+\email{pradhanranit0019@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{RanitPradhan.github.io}                         % optional, remove / comment the line if not wanted
+\social[linkedin]{ranit-pradhan-55046119a}                        % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{OBJECTIVE}
+\cvitem{}{Looking for a position in the field of Firmware where I can utilize my skills to further work towards personal and professional development and contribute towards the prosperity of the organization. Highly motivated and eager to learn new things.}
+
+\section{EDUCATION}
+\cventry{2019-2023 Ongoing}{B.Tech in Electrical and Computer Engineering}{Amrita Vishwa Vidyapeetham}{Kollam, Kerala, India}{}
+{\textit{CGPA: 8.03/10}}{}  % arguments 3 to 6 can be left empty
+\cventry{2019}{Belda Gangadhar Academy}{}{Paschim Medinipur, W.B., India}{}
+{\textit{Percentage: 78.93\%  }}{}  % arguments 3 to 6 can be left empty
+\cventry{2017}{Jankapur High School(H.S)}{}{), Paschim Medinipur, W.B., India}{}
+{\textit{Percentage: 86.14\%  }}{}  % arguments 3 to 6 can be left empty
+
+\section{EXPERIENCE}
+
+\cventry{November 2019 - January 2021}{Member at IEEE, Kerala Section}{Fresher, Amrita School of Engineering}{}{}
+{I was an active IEEE member for 1 year in my college. As a fresher IEEE student, I had attended some conferences, webinars,online competitions and a one week ML internship.}
+
+\cventry{December 2020 - Present}{Member at Team bi0s}{Amrita School of Engineering}{}{}
+{I have been an active member of the community from 2nd year onwards. I actively take part in all events, contribute to projects, workshops and also help in organizing CTF events hosted by bi0s.}
+% arguments 3 to 6 can be left empty
+
+\section{TECHNICAL PROJECTS}
+
+\cventry{July 2020}{An Ultra-Portable Vis-NIR Spectrometer with an Integrated Light Source for Chemometric Applications}{}{}{}
+{This is a project for on-site material inspection and quality analysis of food and agricultural product require portable sensing systems. A mini spectrometer device is used for the measurements and analysis work based on machine learning and python programming. I was involved with performing statistical analysis of different compositions in medicines pills. Project Link: {\newline}
+\url{https://iopscience.iop.org/article/10.1149/1945-7111/abc7e8/pdf}}{}
+% arguments 3 to 6 can be left empty
+
+\section{COURSE PROJECTS}
+
+\cventry{July 2020}{Light Weight, Low Energy OS, Contemporary Technologies Available for Wearable’s}{}{}{}
+{The project was based on analysing light weight os. Project Link:   {\newline}
+\url{https://github.com/RanitPradhan/docs/blob/main/Group_5_OS_Report.pdf}}{}
+
+
+\section{COURSES AND MOOC}
+\cventry{May 2020}{The Arduino Platform and C Programming}{}{}{}
+{Issuing Organization: University of California,Irvine.{\newline}
+Certificate Link:
+\url{ https://coursera.org/share/a6fdb8db507c58f7ae65a0ba2fb95eee}}{}
+
+\cventry{April 2020}{Working With JSON Data)}{}{}{}
+{Issuing Organization: University of California, San Diego.{\newline}
+Certificate Link:
+\url{https://raw.githubusercontent.com/RanitPradhan/Certificates/main/For_CV/JSON_data.JPG}}{}
+
+\cventry{August 2020}{Data Visualization with Python}{}{}{}
+{Issuing Organization: Real Python .{\newline}
+Certificate Link: 
+\url{https://raw.githubusercontent.com/RanitPradhan/Certificates/main/For_CV/Data_Visualization.JPG}}{}
+
+
+
+\section{VOLUNTEER}
+\cventry{January 2015}{Model Explanation}{}{}{}
+{Contributed in a model explanation of an Automated railway alarming system if there is any fault on the train-line. 
+Platinum Jubilee of Jankapur High School(H.S) [1940-2015]}
+\cventry{December 2019}{Model Explanation}{}{}{}
+{Contributed in a model explanation of an Automated water level alarming system.Centenary of Belda Gangadhar Academy  [1919-2019]}
+
+
+\section{INTERNSHIPS AND CONFERENCE ATTENDED}
+\cventry{January 2020}{Hacktoberfest 2019}{}{}{}
+{Attended conference of Digital Ocean,an introduction to Git and GitHub. It is a two days workshop taken by amfoss student club every year.}
+
+\cventry{October 2020}{Machine learning Internship, IEEE}{}{}{}
+{An online internship based on Data Science and ML}
+{Certificate Link: {\newline}
+\url{https://raw.githubusercontent.com/RanitPradhan/Certificates/main/Certificate_Me.jpg }}{}
+
+\section{ACHIEVEMENTS}
+\cvlistitem{Got Paschim Banga Vigyan Mancha award in 2009 and 2017 for getting 5th position in our district and 2nd position in my block respectively..}
+
+\section{Coursework}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvitem{Core Courses}{Data Structure, Object Oriented Programming, Elements of computing systems, Biology for intelligence system}{}
+\cvitem{Lab Courses}{Data Structure Lab, Object Oriented Programming JAVA Lab, Digital Manufacturing, Introduction to Drones.}{}
+
+\section{LANGUAGES}
+\cvitemwithcomment{English}{Full Professional Proficiency}{}
+\cvitemwithcomment{Hindi}{Native Tongue, Full Professional Proficiency}{}
+\cvitemwithcomment{Bengali}{Mother Tongue, Full Professional Proficiency}{}
+\cvitemwithcomment{Odia}{Others, Full Professional Proficiency}{}
+
+\section{COMPUTER SKILLS}
+\cvitem{OS}{Windows, Linux}
+\cvitem{Programming Languages}{Python,C, C++, Assembly}
+\cvitem{VCS}{Git}
+\cvitem{Other Skills}{Arduino, AutoCAD, Problem Solving, Playing CTFs, Pneumatics}
+
+\section{INTERESTS}
+\cvitem{Technical}{Reverse Engineering, Firmware, Embedded Systems, Robotics, Hardware, Artificial Intelligence, Machine Learning, Contributing to Open Source}
+\cvitem{Hobbies}{Travelling,Cricket}{ \newline}
+
+\section{PERSONAL DETAILS}
+\cvitem{DOB}{3rd August, 2000}
+\cvitem{Current Residence}{Kollam,Kerala, India}
+\cvitem{Status}{Student}
+
+\clearpage
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
