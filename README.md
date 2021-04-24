@@ -1,3 +1,3 @@
 # docs
-My resume,CV and other files  
+My resume,[CV](https://ranitpradhan.github.io/docs/cv.pdf) and other files  
 
